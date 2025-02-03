@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix India - Watch TV Shows</title>
+  <link rel="stylesheet" href="Netflix.css">
+  <style>
+    body{
+  
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: rgba(0,0,0,0.5)url("http://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg");
+  background-blend-mode:darken;
+
+}
+.logo{
+    width:10%;
+
+}
+.btn{
+    padding: 8px 15px;
+    color:white;
+    background-color:red ;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav{
+    padding-top: 5px;
+    padding-left :2vw;
+    padding-right :5vw;
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+select{
+  margin-left :70%;
+  padding:8px;
+}
+
+.container{
+   color: white;
+   position:absolute;
+   margin-top:8% ;
+   margin-left:30% ;
+
+}
+
+.content h1{
+    font-size: 50px;
+}
+.content h2{
+    font-size: 30px;
+}
+.mail{
+   width:100%;
+   height:fit-content;
+   align-items:center;
+   background-color:white;
+   display:flex;
+   justify-content:space-between;
+}
+.mail input{
+
+    outline:none;
+    border:none;
+    padding:12px 10 px;
+    size: 1em ;
+}
+.mail a{
+    height:fit-content;
+    background-color:red ;
+    color:white;
+    padding:18px 12px;
+    text-decoration:none;
+
+}
+  </style>
+</head>
+<body>
+   <div class="nav">
+    <img class="logo"  src="https://tse4.mm.bing.net/th?id=OIP.LqhddEhHWnRMFIXC6sPT0QHaCS&pid=Api&P=0&h=180" alt="Netflix">
+    <label for= "Languages"></label>
+    <select name= " Language" id="">
+      <option value="English">English</option>
+      <option value="Telugu">Telugu</option>
+      <option value="Hindi">Hindi</option></option>
+    </select>
+
+    <a class= "btn"  href="#">Sign In</a>
+  </div>
+  <div class="container">
+    <h1>Unlimited Movies,TV <br>Shows and More.</h1>
+    <h2>Watch anyWhere,Cancelanytime.</h2>
+    <p>Ready to Watch? Enter your email to create or restart your Membership.</p>
+    <div class="mail">
+     <input type="text" placeholder="Email address" cols="2">
+     <a href= "#">Get Started</a>
+
+    </div>
+  
+
+
+  </div> 
+</body>
+</html>
